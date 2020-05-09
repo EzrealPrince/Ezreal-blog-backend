@@ -1,0 +1,18 @@
+{
+    "restartable": "rs",
+    "ignore": [
+      ".git",
+      ".svn",
+      "node_modules/**/node_modules"
+    ],
+      "verbose": true,
+      "execMap": {
+      "js": "node --harmony"
+    },
+    "watch": ["service/", "action/", "routes/", "module/", "views/"],
+    "env": {
+      "NODE_ENV": "dev",
+      "NEED_SKIT": true
+    },
+    "ext": "ejs js json"
+}
